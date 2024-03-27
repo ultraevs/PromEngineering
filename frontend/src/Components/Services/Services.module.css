@@ -1,0 +1,44 @@
+.services__block {
+  padding-top: 144px;
+}
+
+.title {
+  margin-bottom: 64px;
+}
+
+.services__rails {
+    margin: 42px 0;
+  height: 152px;
+  background: url("../../assets/images/rails.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.services__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.services__item__text {
+  margin-left: 40px;
+  width: 50%;
+}
+
+.services__item__text h4 {
+  margin-bottom: 24px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 120%;
+  color: var(--text-dark);
+}
+
+.services__item__text ul li {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--text-dark);
+}

@@ -1,0 +1,38 @@
+.contacts__block {
+    margin-bottom: 144px;
+}
+
+.contacs_title{
+    color: #141414;
+
+    /* h2 */
+    font-family: 'Inter', sans-serif;
+    font-size: 3.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 4.575rem */
+}
+
+.contacs_place{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacs_info{
+    color: #000;
+
+    /* p */
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.5rem */
+
+    margin-top: 2.625rem;
+    margin-left: 1.5rem;
+}
+
+.contacs_link{
+    color: #000;
+    text-decoration: none;
+}
