@@ -1,0 +1,21 @@
+.footer {
+  background: #0a539d;
+}
+
+.footer__block {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 42.15px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__block p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #fff;
+}

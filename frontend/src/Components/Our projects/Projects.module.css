@@ -1,0 +1,120 @@
+.projects__block {
+    padding-top: 144px;
+    margin-bottom: 144px;
+}
+
+.projects_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 3.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 0.5rem;
+}
+
+.projects_subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+
+    margin-bottom: 2.62rem;
+}
+
+.projects_blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+
+.projects_block{
+    display: flex;
+    align-items: center;
+}
+
+.metrovagon{
+    gap: 5.875rem;
+}
+
+.kolom{
+    gap: 2.25rem;
+}
+
+.tverskoi{
+    gap: 3rem;
+}
+
+.projects_block img{
+    width: 50.29169rem;
+    height: 28.82919rem;
+}
+
+.projects_block_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.projects_block_name{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.4375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+
+    text-align: center;
+}
+
+.projects_block_button{
+    cursor: pointer;
+
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    border-radius: 0.25rem;
+    border: 1px solid var(--Text-dark, #141414);
+    background-color: transparent;
+
+    color: var(--Text-dark, #141414);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+/* Modal */
+
+.modal_text{
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.5rem */
+
+}
+
+.modal_list{
+    padding-left: 1.2rem;
+
+}
+
+.close{
+    border: none;
+    background: none;
+    width: 100%;
+  
+    cursor: pointer;
+  }
+
+.close img{
+    float: right;
+  }

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Inter Tight", sans-serif;
+  --tmx-light-blue: #62c6f2;
+  --tmx-dark-blue: #0a539d;
+  --text-dark: #141414;
+  --text-light: #f6f6ff;
+  --design-background: #f6f6ff;
+}
+
+body {
+  background: #f6f6ff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 120%;
+  color: var(--text-dark);
+}

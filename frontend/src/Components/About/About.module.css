@@ -1,0 +1,33 @@
+.about__block {
+  margin-top: 144px;
+}
+
+.about__items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.about__item__text p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--text-dark);
+}
+
+.about__item__text h5 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 120%;
+  color: var(--text-dark);
+}

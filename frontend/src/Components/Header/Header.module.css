@@ -1,0 +1,25 @@
+.header {
+  z-index: 999;
+  background: #0a539d;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  line-height: 100px;
+}
+
+.header__block {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.header__logo img {
+  vertical-align: middle;
+}

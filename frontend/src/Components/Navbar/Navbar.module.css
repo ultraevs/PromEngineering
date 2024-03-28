@@ -1,0 +1,20 @@
+.header__navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.header__navbar ul li {
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--text-light);
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.header__navbar ul li:hover {
+    text-decoration: underline;
+}
