@@ -19,3 +19,45 @@
   line-height: 120%;
   color: #fff;
 }
+
+@media (max-width: 1920px) {
+  .footer__block {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  .footer__block {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1280px) {
+  .footer__block {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer__block {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__block {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__block {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
