@@ -30,3 +30,45 @@ body {
   line-height: 120%;
   color: var(--text-dark);
 }
+
+@media (max-width: 1920px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
