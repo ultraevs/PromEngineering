@@ -3,12 +3,6 @@
 }
 
 .customers_title {
-  color: #141414;
-  font-family: "Inter", sans-serif;
-  font-size: 3.8125rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%;
   margin-bottom: 2.625rem;
 }
 
@@ -39,21 +33,18 @@
 
 .scroller[data-animated="true"] {
   overflow: hidden;
-  -webkit-mask: linear-gradient(
-    90deg,
-    transparent,
-    white 20%,
-    white 80%,
-    transparent
-  );
+  -webkit-mask: linear-gradient(90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent);
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
 .scroller[data-animated="true"] .scroller__inner {
   width: max-content;
   flex-wrap: nowrap;
-  animation: scroll var(--_animation-duration, 40s)
-    var(--_animation-direction, forwards) linear infinite;
+  animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
 }
 
 .scroller[data-direction="right"] {
@@ -79,5 +70,118 @@
 @keyframes scroll {
   to {
     transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+@media (max-width: 1280px) {
+  .scroller__inner {
+    gap: 4rem;
+  }
+
+  .mpt {
+    width: 218px;
+    height: 36px;
+  }
+
+  .rrl {
+    width: 154px;
+    height: 69px;
+  }
+
+  .cppk {
+    width: 142px;
+    height: 128px;
+  }
+
+  .kmz {
+    width: 136.842px;
+    height: 136.885px;
+  }
+
+  .tvz {
+    width: 150px;
+    height: 137px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customers_container {
+    height: 183px;
+  }
+
+  .scroller__inner {
+    height: 183px;
+
+  }
+
+  .mpt {
+    width: 187px;
+    height: 30px;
+  }
+
+  .rrl {
+    width: 129px;
+    height: 58px;
+  }
+
+  .cppk {
+    width: 98px;
+    height: 88px;
+  }
+
+  .mvm {
+    width: 174px;
+    height: 151px;
+  }
+
+  .kmz {
+    width: 94px;
+    height: 94px;
+  }
+
+  .tvz {
+    width: 106px;
+    height: 97px;
+  }
+}
+
+@media (max-width: 480px) {
+  .customers_container {
+    height: 142px;
+  }
+
+  .scroller__inner {
+    height: 142px;
+
+  }
+
+  .mpt {
+    width: 160px;
+    height: 25px;
+  }
+
+  .rrl {
+    width: 97px;
+    height: 43px;
+  }
+
+  .cppk {
+    width: 77px;
+    height: 69px;
+  }
+
+  .mvm {
+    width: 120px;
+    height: 110px;
+  }
+
+  .kmz {
+    width: 69px;
+    height: 69px;
+  }
+
+  .tvz {
+    width: 77px;
+    height: 70px;
   }
 }

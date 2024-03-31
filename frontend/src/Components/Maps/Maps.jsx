@@ -3,10 +3,10 @@ import { YMaps, Map, Placemark, GeolocationControl } from "@pbe/react-yandex-map
 
 const Maps = () => {
   return (
-    <div>
+    <div className="contacts_map">
       <YMaps>
         <Map
-          style={{ marginTop: 42, borderRadius: 12, overflow: "hidden", width: 710, height: 430 }}
+          style={{ marginTop: 42, borderRadius: 12, overflow: "hidden", width: 710, height: 430}}
           defaultState={{
             center: [55.784405, 37.673421],
             zoom: 15,

@@ -21,7 +21,7 @@ const Projects = () => {
         <p className={styles.projects_subtitle}>С географией по всей стране</p>
         <div className={styles.projects_blocks}>
           <div className={classNames(styles.projects_block, styles.metrovagon)}>
-            <img src={img1} alt="Метровагонмаш" />
+            <img className={styles.projects_img} src={img1} alt="Метровагонмаш" />
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>Метровагонмаш</h4>
               <button
@@ -35,7 +35,7 @@ const Projects = () => {
           </div>
 
           <div className={classNames(styles.projects_block, styles.kolom)}>
-            <img src={img2} alt="Метровагонмаш" />
+            <img className={styles.projects_img} src={img2} alt="Метровагонмаш" />
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
                 Коломенский <br /> вагноностроительный <br /> завод
@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
 
           <div className={classNames(styles.projects_block, styles.tverskoi)}>
-            <img src={img3} alt="Метровагонмаш" />
+            <img className={styles.projects_img} src={img3} alt="Метровагонмаш" />
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
                 Тверской <br /> вагоностроительный <br /> завод
@@ -88,7 +88,7 @@ const Projects = () => {
               <b>Продукция и услуги</b>
             </p>
             &nbsp;
-            <ul className={classNames(styles.modal_text, styles.modal_list)}>
+            <ul className={classNames(styles.modal_text_ul, styles.modal_list)}>
               <li>Изготовление современных вагонов метро для метрополитенов</li>
               <li>
                 Изготовление рельсовых автобусов для городского, пригородного и

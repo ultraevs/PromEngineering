@@ -33,29 +33,29 @@ const Customers = () => {
   return (
     <section className="customers_block">
       <div className="container">
-        <h2 className="customers_title">Наши заказчики</h2>
+        <h2 className="title customers_title">Наши заказчики</h2>
       </div>
 
       <div className="customers_container">
         <div className="scroller" data-direction="left" data-speed="slow">
           <div className="scroller__inner">
             <a href="https://www.minpromtorg.gov.ru/">
-              <img src={mpt} alt="" />
+              <img className="mpt" src={mpt} alt="" />
             </a>
             <a href="https://www.rzd.ru/">
-              <img src={rrl} alt="" />
+              <img className="rrl" src={rrl} alt="" />
             </a>
             <a href="https://central-ppk.ru/new/">
-              <img src={cppk} alt="" />
+              <img className="cppk" src={cppk} alt="" />
             </a>
             <a href="https://metrowagonmash.ru/">
-              <img src={mvm} alt="" />
+              <img className="mvm" src={mvm} alt="" />
             </a>
             <a href="https://www.kolomnadiesel.com/">
-              <img src={kmz} alt="" />
+              <img className="kmz" src={kmz} alt="" />
             </a>
             <a href="http://www.tvz.ru/">
-              <img src={tvz} alt="" />
+              <img className="tvz" src={tvz} alt="" />
             </a>
           </div>
         </div>
