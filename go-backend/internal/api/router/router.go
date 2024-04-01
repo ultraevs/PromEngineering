@@ -24,10 +24,6 @@ func (router *Router) Run(port string) error {
 
 func (router *Router) Setup() {
 	gin.SetMode(gin.DebugMode)
-	_, currentFilePath, _, _ := runtime.Caller(1)
-	templatesPath := filepath.Join(filepath.Dir(currentFilePath), "../../../templates")
-	router.engine.LoadHTMLGlob(filepath.Join(templatesPath, "*.html"))
-	router.engine.Static("/assets", filepath.Join(templatesPath, "assets"))
 	router.engine.Use(cors.New(cors.Config{
 		AllowOrigins:     []string{"*"},
 		AllowMethods:     []string{"*"},
