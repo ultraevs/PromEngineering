@@ -1,0 +1,187 @@
+.customers_block {
+  padding: 0 0 9rem 0;
+}
+
+.customers_title {
+  margin-bottom: 2.625rem;
+}
+
+.customers_container {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 1000px 1000px 0px;
+}
+
+.scroller {
+  max-width: 90%;
+  background: #fff;
+}
+
+.scroller__inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6.25rem;
+}
+
+.scroller__inner a {
+  margin: auto;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent);
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 300s;
+}
+
+.scroller:hover .scroller__inner {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+@media (max-width: 1280px) {
+  .scroller__inner {
+    gap: 4rem;
+  }
+
+  .mpt {
+    width: 218px;
+    height: 36px;
+  }
+
+  .rrl {
+    width: 154px;
+    height: 69px;
+  }
+
+  .cppk {
+    width: 142px;
+    height: 128px;
+  }
+
+  .kmz {
+    width: 136.842px;
+    height: 136.885px;
+  }
+
+  .tvz {
+    width: 150px;
+    height: 137px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customers_container {
+    height: 183px;
+  }
+
+  .scroller__inner {
+    height: 183px;
+
+  }
+
+  .mpt {
+    width: 187px;
+    height: 30px;
+  }
+
+  .rrl {
+    width: 129px;
+    height: 58px;
+  }
+
+  .cppk {
+    width: 98px;
+    height: 88px;
+  }
+
+  .mvm {
+    width: 174px;
+    height: 151px;
+  }
+
+  .kmz {
+    width: 94px;
+    height: 94px;
+  }
+
+  .tvz {
+    width: 106px;
+    height: 97px;
+  }
+}
+
+@media (max-width: 480px) {
+  .customers_container {
+    height: 142px;
+  }
+
+  .scroller__inner {
+    height: 142px;
+
+  }
+
+  .mpt {
+    width: 160px;
+    height: 25px;
+  }
+
+  .rrl {
+    width: 97px;
+    height: 43px;
+  }
+
+  .cppk {
+    width: 77px;
+    height: 69px;
+  }
+
+  .mvm {
+    width: 120px;
+    height: 110px;
+  }
+
+  .kmz {
+    width: 69px;
+    height: 69px;
+  }
+
+  .tvz {
+    width: 77px;
+    height: 70px;
+  }
+}

@@ -1,0 +1,29 @@
+.heroBg {
+  background: url("../../assets/images/MainBG.svg");
+  height: calc(740px);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.heroBG__text {
+  padding-top: 128px;
+  width: 940px;
+}
+
+.heroBG__text h1 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 120%;
+  color: var(--text-light);
+}
+
+.heroBG__text h4 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 120%;
+  color: var(--text-light);
+  opacity: 0.9;
+}

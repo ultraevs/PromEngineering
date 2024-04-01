@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Inter Tight", sans-serif;
+  --tmx-light-blue: #62c6f2;
+  --tmx-dark-blue: #0a539d;
+  --text-dark: #141414;
+  --text-light: #f6f6ff;
+  --design-background: #f6f6ff;
+}
+
+body {
+  background: #f6f6ff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 120%;
+  color: var(--text-dark);
+}
+
+@media (max-width: 1920px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+    .title {
+    font-size: 39px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+    .title {
+    font-size: 31px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
