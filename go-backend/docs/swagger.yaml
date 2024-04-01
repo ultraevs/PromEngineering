@@ -1,0 +1,42 @@
+definitions:
+  controller.Response:
+    properties:
+      message:
+        type: string
+    type: object
+info:
+  contact: {}
+  description: ultraevs.ru API
+  title: Portfolio Service API
+  version: "1.0"
+paths:
+  /callback:
+    post:
+      description: Post Callback Button
+      parameters:
+      - description: Name
+        in: formData
+        name: name
+        required: true
+        type: string
+      - description: Phone
+        in: formData
+        name: phone
+        required: true
+        type: string
+      - description: Comment
+        in: formData
+        name: comment
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controller.Response'
+      summary: Post Callback
+      tags:
+      - callback
+swagger: "2.0"
