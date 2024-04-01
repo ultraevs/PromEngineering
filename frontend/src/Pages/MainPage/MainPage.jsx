@@ -3,8 +3,8 @@ import Layout from "../../Components/Layout/Layout";
 import Hero from "../../Components/Hero/Hero";
 import About from "../../Components/About/About";
 import Services from "../../Components/Services/Services";
-import Projects from "../../Components/Our projects/Projects";
-import Customers from "../../Components/Our customers/Customers";
+import Projects from "../../Components/Projects/Projects";
+import Customers from "../../Components/Customers/Customers";
 import Contacts from "../../Components/Contacts/Contacts";
 
 
