@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footer__block}>
-        <div className={styles.footer__logo}>
+        <div className="logo">
           <img src={Logo} alt="TMX logo" />
         </div>
         <p>Проминжиниринг, 2024</p>

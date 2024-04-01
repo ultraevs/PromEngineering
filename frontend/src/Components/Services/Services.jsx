@@ -3,7 +3,6 @@ import styles from "./Services.module.css";
 import classNames from "classnames";
 
 import services1 from "../../assets/images/services1.svg";
-// import services2 from "../../assets/images/services2.PNG";
 
 const Services = () => {
   return (
@@ -26,8 +25,8 @@ const Services = () => {
       </div>
       <div className={styles.services__rails}></div>
       <div className="container">
-        <div className={styles.services__item}>
-          <div className={styles.services__item__text}>
+        <div className={classNames(styles.services__item, styles.services__item__reverse)}>
+          <div className={classNames(styles.services__item__text, styles.services__item__text__response)}>
             <h4>Девелопмент</h4>
             <ul>
               <li>Управление непрофильными активами</li>

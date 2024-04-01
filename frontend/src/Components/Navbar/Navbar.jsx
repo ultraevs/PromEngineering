@@ -17,10 +17,10 @@ const Navbar = () => {
           <Link to="services" spy smooth>Услуги</Link>
         </li>
         <li>
-          <Link to="projects">Наши проекты</Link>
+          <Link to="projects" spy smooth>Наши проекты</Link>
         </li>
         <li>
-          <Link to="customers">Наши заказчики</Link>
+          <Link to="customers" spy smooth>Наши заказчики</Link>
         </li>
       </ul>
     </nav>
