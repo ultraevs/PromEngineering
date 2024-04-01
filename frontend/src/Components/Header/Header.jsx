@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.header__block}>
-        <div onClick={scrollToTop} className={styles.header__logo}>
+        <div onClick={scrollToTop} className="logo">
           <img src={Logo} alt="TMX logo" />
         </div>
         <Navbar />

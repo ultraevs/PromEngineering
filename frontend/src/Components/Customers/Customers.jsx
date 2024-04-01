@@ -31,7 +31,7 @@ const Customers = () => {
   }
 
   return (
-    <section className="customers_block">
+    <section id="customers" className="customers_block">
       <div className="container">
         <h2 className="title customers_title">Наши заказчики</h2>
       </div>
