@@ -16,9 +16,9 @@ const MainPage = () => {
         <Hero />
         <About />
         <Services />
-        {/* <Projects /> */}
-        {/* <Customers /> */}
-        {/* <Contacts /> */}
+        <Projects />
+        <Customers />
+        <Contacts />
     </Layout>
   );
 };

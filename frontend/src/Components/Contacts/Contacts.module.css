@@ -4,7 +4,7 @@
 
 .contacs_place{
     display: flex;
-    justify-content: space-between;
+    gap: 142px;
 }
 .contacs_info{
     color: #000;
@@ -28,6 +28,9 @@
     .contacts__block{
         margin-bottom: 96px;
     }
+    .contacs_place{
+        gap: 77px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -37,9 +40,15 @@
     .contacs_info{
         font-size: 1rem;
     }
+    .contacs_place{
+        gap: 62px;
+    }
 }
 @media (max-width: 480px) {
     .contacs_place{
         flex-direction: column;
+    }
+    .contacs_place{
+        gap: 46px;
     }
 }
