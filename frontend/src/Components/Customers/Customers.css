@@ -74,8 +74,16 @@
 }
 
 @media (max-width: 1280px) {
+  .customers_container {
+    height: 261px;
+  }
+  .scroller{
+    height: 261px;
+  }
   .scroller__inner {
     gap: 4rem;
+    height: 261px;
+
   }
 
   .mpt {
@@ -104,8 +112,56 @@
   }
 }
 
+
+@media (max-width: 1000px) {
+  .customers_container {
+    height: 221px;
+  }
+
+  .scroller{
+    height: 221px;
+  }
+  .scroller__inner {
+    gap: 4rem;
+    height: 221px;
+  }
+
+  .mpt {
+    width: 218px;
+    height: 36px;
+  }
+
+  .rrl {
+    width: 154px;
+    height: 69px;
+  }
+
+  .cppk {
+    width: 142px;
+    height: 128px;
+  }
+
+  .mvm {
+    width: 209px;
+    height: 189px;
+  }
+
+  .kmz {
+    width: 136.842px;
+    height: 136.885px;
+  }
+
+  .tvz {
+    width: 150px;
+    height: 137px;
+  }
+}
+
 @media (max-width: 768px) {
   .customers_container {
+    height: 183px;
+  }
+  .scroller{
     height: 183px;
   }
 
@@ -149,6 +205,11 @@
   .customers_container {
     height: 142px;
   }
+
+  .scroller{
+    height: 142px;
+  }
+
 
   .scroller__inner {
     height: 142px;
