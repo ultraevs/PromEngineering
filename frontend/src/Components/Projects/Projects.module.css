@@ -1,205 +1,219 @@
 .projects__block {
-    padding-top: 144px;
-    margin-bottom: 144px;
+  margin-top: 144px;
+}
+
+.title {
+  margin-bottom: 8px !important;
 }
 
 .projects_title {
-    font-family: 'Inter', sans-serif;
-    font-size: 3.8125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%;
-    margin-bottom: 0.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 3.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 0.5rem;
 }
 
 .projects_subtitle {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.9375rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-
-    margin-bottom: 2.62rem;
+  margin-bottom: 42px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
 }
 
 .projects_blocks {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
 }
 
-
 .projects_block {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .metrovagon {
-    gap: 5.875rem;
+  gap: 5.875rem;
 }
 
 .kolom {
-    gap: 2.25rem;
+  gap: 2.25rem;
 }
 
 .tverskoi {
-    gap: 3rem;
+  gap: 3rem;
 }
 
 .projects_img {
-    width: 50.29169rem;
-    height: 28.82919rem;
+  border-radius: 8px;
+  width: 50.29169rem;
+  height: 28.82919rem;
 }
 
 .projects_block_info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .projects_block_name {
-    font-family: 'Inter', sans-serif;
-    font-size: 2.4375rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
+  font-family: "Inter", sans-serif;
+  font-size: 2.4375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
 
-    text-align: center;
+  text-align: center;
 }
 
 .projects_block_button {
-    cursor: pointer;
+  cursor: pointer;
 
-    display: flex;
-    padding: 0.5rem 1rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
+  display: flex;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
 
-    border-radius: 0.25rem;
-    border: 1px solid var(--Text-dark, #141414);
-    background-color: transparent;
+  border-radius: 0.25rem;
+  border: 1px solid var(--Text-dark, #141414);
+  background-color: transparent;
 
-    color: var(--Text-dark, #141414);
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
+  color: var(--Text-dark, #141414);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
 }
 
 /* Modal */
 
 .modal_text {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
 
-    text-indent: 1.5rem;
-    text-align: justify;
+  text-indent: 1.5rem;
+  text-align: justify;
 }
 
 .modal_text_ul {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
-
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
 }
 
 .modal_list {
-    padding-left: 1.2rem;
-
+  padding-left: 1.2rem;
 }
 
 .close {
-    border: none;
-    background: none;
-    width: 100%;
+  border: none;
+  background: none;
+  width: 100%;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .close img {
-    float: right;
+  float: right;
 }
 
 @media (max-width: 1440px) {
-    .projects_subtitle {
-        font-size: 28px;
-        font-weight: 400;
-    }
+  .projects__block {
+    margin-top: 120px;
+  }
 
-    .projects_img {
-        width: 660px;
-        height: 378px;
-    }
+  .projects_subtitle {
+    font-size: 28px;
+    font-weight: 400;
+  }
 
-    .projects_block_name {
-        font-size: 35px;
-    }
+  .projects_img {
+    width: 660px;
+    height: 378px;
+  }
+
+  .projects_block_name {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 1280px) {
-    .projects_subtitle {
-        font-size: 1.5625rem;
-        font-weight: 400;
-    }
+  .projects__block {
+    margin-top: 96px;
+  }
 
-    .projects_img {
-        width: 610px;
-        height: 350px;
-    }
+  .projects_subtitle {
+    font-size: 1.5625rem;
+    font-weight: 400;
+  }
 
-    .projects_block_name {
-        font-size: 1.9375rem;
-    }
+  .projects_subtitle {
+    font-weight: 400;
+  }
+
+  .projects_img {
+    width: 610px;
+    height: 350px;
+  }
+
+  .projects_block_name {
+    font-size: 1.9375rem;
+  }
 }
 
 @media (max-width: 1000px) {
+  .projects__block {
+    margin-top: 69px;
+  }
 
-    .projects_img {
-        width: 476px;
-        height: 273px;
-    }
+  .projects_img {
+    width: 476px;
+    height: 273px;
+  }
 
-    .projects_block_name {
-        font-size: 28px;
-    }
+  .projects_block_name {
+    font-size: 28px;
+  }
 }
 
-
 @media (max-width: 768px) {
-    .projects_block {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
+  .projects_block {
+    margin-top: 42px;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
 
-    .projects_img {
-        width: 342px;
-        height: 196px;
-    }
+  .projects_img {
+    width: 342px;
+    height: 196px;
+  }
 
-    .projects_block_name {
-        font-size: 1.5625rem;
-        font-weight: 400;
-    }
+  .projects_block_name {
+    font-size: 1.5625rem;
+    font-weight: 400;
+  }
 
-    .projects_block_button {
-        font-size: 0.875rem;
-    }
+  .projects_block_button {
+    font-size: 0.875rem;
+  }
 }
 
 @media (max-width: 480px) {
-    .projects_block {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
-
+  .projects_block {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
 }

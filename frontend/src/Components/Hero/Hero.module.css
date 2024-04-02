@@ -1,6 +1,6 @@
 .heroBg {
   background: url("../../assets/images/MainBG.svg");
-  height: calc(740px);
+  height: calc(100vh - 230px);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -29,6 +29,10 @@
 }
 
 @media (max-width: 1440px) {
+  .heroBG__text {
+    padding-top: 102px;
+  }
+
   .heroBG__text h1 {
     font-size: 62.5px;
   }
@@ -41,6 +45,10 @@
 }
 
 @media (max-width: 1000px) {
+  .heroBG__text {
+    padding-top: 84px;
+  }
+
   .heroBG__text {
     width: 575px;
   }
@@ -55,6 +63,10 @@
 }
 
 @media (max-width: 768px) {
+  .heroBG__text {
+    padding-top: 64px;
+  }
+
   .heroBG__text {
     width: 440px;
   }

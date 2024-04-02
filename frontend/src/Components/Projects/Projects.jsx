@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import Modal from "../Modal/Modal.jsx";
 
+
 import img1 from "../../assets/images/Метровагонмаш.png";
 import img2 from "../../assets/images/Коломенский.jpg";
 import img3 from "../../assets/images/Тверской.jpg";
 import Close from "../../assets/icons/close.svg";
 
 import styles from "./Projects.module.css";
-import classNames from "class-names";
+import classNames from "classnames";
 
 const Projects = () => {
   const [modalActive1, setModalActive1] = useState(false);
@@ -17,7 +18,7 @@ const Projects = () => {
   return (
     <section id="projects" className={styles.projects__block}>
       <div className="container">
-        <h2 className="title">Наши проекты</h2>
+        <h2 className={classNames("title", styles.title)}>Наши проекты</h2>
         <p className={styles.projects_subtitle}>С географией по всей стране</p>
         <div className={styles.projects_blocks}>
           <div className={classNames(styles.projects_block, styles.metrovagon)}>
