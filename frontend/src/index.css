@@ -37,6 +37,7 @@ body {
 }
 
 .title {
+  margin-bottom: 42px;
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 61px;

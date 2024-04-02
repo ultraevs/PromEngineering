@@ -1,5 +1,5 @@
 .about__block {
-  margin-top: 144px;
+  margin-top: 50px;
 }
 
 .about__items {
@@ -88,5 +88,4 @@
 }
 
 @media (max-width: 480px) {
-
 }
