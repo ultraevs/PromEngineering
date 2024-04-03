@@ -2,6 +2,11 @@
   margin-top: 144px;
 }
 
+.cotantacts_map{
+  width: fit-content;
+  height: fit-content;
+}
+
 .title {
   margin-bottom: 8px !important;
 }
