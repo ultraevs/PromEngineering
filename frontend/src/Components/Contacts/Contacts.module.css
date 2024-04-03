@@ -5,6 +5,7 @@
 .contacs_place {
   display: flex;
   gap: 142px;
+  height: fit-content;
 }
 
 .contacs_info {
@@ -16,7 +17,7 @@
   font-weight: 400;
   line-height: 120%;
 
-  margin-top: 2.625rem;
+  /* margin-top: 2.625rem; */
   margin-left: 1.5rem;
 }
 
