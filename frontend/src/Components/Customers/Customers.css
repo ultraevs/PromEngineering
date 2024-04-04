@@ -1,5 +1,5 @@
 .customers_block {
-  margin-top: 144px;
+  padding-top: 144px;
 }
 
 .customers_title {
@@ -78,13 +78,13 @@
 
 @media (max-width: 1440px) {
   .customers_block {
-    margin-top: 120px;
+    padding-top: 120px;
   }
 }
 
 @media (max-width: 1280px) {
   .customers_block {
-    margin-top: 96px;
+    padding-top: 96px;
   }
 
   .customers_container {
@@ -126,7 +126,7 @@
 
 @media (max-width: 1000px) {
   .customers_block {
-    margin-top: 69px;
+    padding-top: 69px;
   }
 
   .customers_container {
@@ -174,7 +174,7 @@
 
 @media (max-width: 768px) {
   .customers_block {
-    margin-top: 42px;
+    padding-top: 42px;
   }
 
   .customers_container {
