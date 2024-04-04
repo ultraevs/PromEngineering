@@ -77,9 +77,6 @@
 }
 
 @media (max-width: 768px) {
-  .about__items {
-    grid-template-columns: auto;
-  }
 
   .about__item img {
     width: 31px;
