@@ -1,5 +1,5 @@
 .projects__block {
-  margin-top: 144px;
+  padding-top: 144px;
 }
 
 .cotantacts_map{
@@ -144,7 +144,7 @@
 
 @media (max-width: 1440px) {
   .projects__block {
-    margin-top: 120px;
+    padding-top: 120px;
   }
 
   .projects_subtitle {
@@ -173,7 +173,7 @@
 
 @media (max-width: 1280px) {
   .projects__block {
-    margin-top: 96px;
+    padding-top: 96px;
   }
 
   .projects_subtitle {
@@ -197,7 +197,7 @@
 
 @media (max-width: 1000px) {
   .projects__block {
-    margin-top: 69px;
+    padding-top: 69px;
   }
 
   .projects_img {
