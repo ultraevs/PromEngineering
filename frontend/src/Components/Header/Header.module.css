@@ -8,6 +8,7 @@
 }
 
 .header__block {
+  height: 100%;
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
@@ -28,6 +29,10 @@
     max-width: 1000px;
     margin: 0 auto;
   }
+
+  .header{
+    height: 80px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -41,6 +46,10 @@
   .header__block {
     max-width: 480px;
     margin: 0 auto;
+  }
+
+  .header{
+    height: 72px;
   }
 }
 

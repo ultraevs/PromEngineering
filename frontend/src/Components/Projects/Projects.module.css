@@ -100,6 +100,13 @@
 
 /* Modal */
 
+.modal_info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .modal_text {
   font-family: "Inter", sans-serif;
   font-size: 1.25rem;
@@ -153,6 +160,15 @@
   .projects_block_name {
     font-size: 35px;
   }
+
+  .modal_img{
+    width: 330px;
+    height: 189px;
+  }
+
+  .modal_text, .modal_text_ul{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -195,10 +211,16 @@
 }
 
 @media (max-width: 768px) {
-  .projects_block {
-    margin-top: 42px;
-    flex-direction: column;
+  .projects_subtitle{
+    margin-bottom: 24px;
+  }
+
+  .projects_blocks {
     align-items: center;
+  }
+  
+  .projects_block {
+    flex-direction: column;
     gap: 0.75rem;
   }
 
@@ -221,5 +243,14 @@
   .projects_block {
     flex-direction: column;
     gap: 0.75rem;
+  }
+
+  .modal_img{
+    width: 247px;
+    height: 141px;
+  }
+
+  .modal_text, .modal_text_ul{
+    font-size: 14px;
   }
 }

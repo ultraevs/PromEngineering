@@ -29,7 +29,7 @@
     background-color: #FFF;
 
     height: fit-content;
-    width: 600px;
+    max-width: 600px;
 
     transform: scale(0.5);
     transition: 0.4s all;

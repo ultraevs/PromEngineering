@@ -101,7 +101,7 @@ const Projects = () => {
               <li>Сервисное обслуживание вагонов метро</li>
             </ul>
             &nbsp;
-            <img src={img1} alt="" width='100%'/>
+            <img className={styles.modal_img} src={img1} alt="" width='100%'/>
           </div>
         </Modal>
 
@@ -121,7 +121,7 @@ const Projects = () => {
               грузовых тепловозов для железных дорог России, стран СНГ и Балтики
             </p>
             &nbsp;
-            <img src={img2} alt="" width='100%'/>
+            <img className={styles.modal_img} src={img2} alt="" width='100%'/>
           </div>
         </Modal>
 
@@ -146,7 +146,7 @@ const Projects = () => {
               низкопольных трамваев
             </p>
             &nbsp;
-            <img src={img3} alt="" width='100%'/>
+            <img className={styles.modal_img} src={img3} alt="" width='100%'/>
           </div>
         </Modal>
       </div>
