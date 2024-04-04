@@ -100,6 +100,24 @@
 
 /* Modal */
 
+.modal_content{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.modal_metrovagon{
+  max-width: 600px;
+}
+
+.modal_kolom{
+  max-width: 400px;
+}
+
+.modal_tverskoi{
+  max-width: 520px;
+}
+
 .modal_info{
   display: flex;
   flex-direction: column;
@@ -211,6 +229,10 @@
 }
 
 @media (max-width: 768px) {
+  .modal_content{
+    flex-direction: column-reverse;
+    gap: 0;
+  }
   .projects_subtitle{
     margin-bottom: 24px;
   }
