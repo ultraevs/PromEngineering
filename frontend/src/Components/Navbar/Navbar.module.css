@@ -80,17 +80,20 @@
     text-align: center;
     gap: 0px;
   }
-  
+
   .header__navbar ul li {
-    width: 100%;
-    padding-top: 35px;
-    padding-bottom: 35px;
     font-size: 25px;
     color: var(--text-dark);
     border-bottom: 1px solid var(--text-dark);
   }
+
+  .header__navbar ul li a {
+    display: block;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
 }
 
 @media (max-width: 480px) {
-  
 }

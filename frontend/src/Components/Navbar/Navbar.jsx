@@ -31,19 +31,9 @@ const Navbar = ({ state, setState, width }) => {
         className={styles.header__navbar}
         onClick={(e) => e.stopPropagation()}
       >
-        {/* <div onClick={scrollToTop}>Главная</div>
-        <Link onClick={handleClick} to="services" spy smooth>
-          Услуги
-        </Link>
-        <Link onClick={handleClick} to="projects" spy smooth>
-          Наши проекты
-        </Link>
-        <Link onClick={handleClick} to="customers" spy smooth>
-          Наши заказчики
-        </Link> */}
         <ul>
           <li>
-            <div onClick={scrollToTop}>Главная</div>
+            <Link onClick={scrollToTop} to="#">Главная</Link>
           </li>
           <li>
             <Link onClick={handleClick} to="services" spy smooth>

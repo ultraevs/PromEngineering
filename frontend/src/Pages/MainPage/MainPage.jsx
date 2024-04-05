@@ -12,7 +12,6 @@ import Contacts from "../../Components/Contacts/Contacts";
 const MainPage = () => {
   return (
     <Layout>
-        <section id="top"></section>
         <Hero />
         <About />
         <Services />

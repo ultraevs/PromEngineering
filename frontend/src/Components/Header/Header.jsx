@@ -3,6 +3,7 @@ import styles from "./Header.module.css";
 import Logo from "../../assets/images/TMX_LOGO.svg";
 import Navbar from "../Navbar/Navbar";
 import { animateScroll as scroll } from "react-scroll";
+import classNames from "classnames";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -31,7 +32,11 @@ const Header = () => {
           <img src={Logo} alt="TMX logo" />
         </div>
         <Navbar state={isOpen} setState={setIsOpen} width={windowWidth} />
-        <button className={styles.header__button} onClick={() => setIsOpen(!isOpen)}>Click</button>
+        <div className={ isOpen ? classNames(styles.header__button, styles.active) : styles.header__button} onClick={() => setIsOpen(!isOpen)}>
+          <div className={styles.header__button__bar1}></div>
+          <div className={styles.header__button__bar2}></div>
+          <div className={styles.header__button__bar3}></div>
+        </div>
       </div>
     </header>
   );
