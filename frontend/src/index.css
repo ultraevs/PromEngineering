@@ -85,7 +85,7 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 680px;
+    max-width: 90%;
     margin: 0 auto;
   }
 
@@ -100,11 +100,6 @@ body {
 }
 
 @media (max-width: 480px) {
-  .container {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
   .logo {
     width: 129px;
   }
