@@ -1,5 +1,5 @@
 .projects__block {
-  margin-top: 144px;
+  padding-top: 144px;
 }
 
 .cotantacts_map{
@@ -100,6 +100,24 @@
 
 /* Modal */
 
+.modal_content{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.modal_metrovagon{
+  max-width: 600px;
+}
+
+.modal_kolom{
+  max-width: 400px;
+}
+
+.modal_tverskoi{
+  max-width: 520px;
+}
+
 .modal_info{
   display: flex;
   flex-direction: column;
@@ -144,7 +162,7 @@
 
 @media (max-width: 1440px) {
   .projects__block {
-    margin-top: 120px;
+    padding-top: 120px;
   }
 
   .projects_subtitle {
@@ -173,7 +191,7 @@
 
 @media (max-width: 1280px) {
   .projects__block {
-    margin-top: 96px;
+    padding-top: 96px;
   }
 
   .projects_subtitle {
@@ -197,12 +215,12 @@
 
 @media (max-width: 1000px) {
   .projects__block {
-    margin-top: 69px;
+    padding-top: 69px;
   }
 
   .projects_img {
-    width: 476px;
-    height: 273px;
+    width: 380px;
+    height: 218px;
   }
 
   .projects_block_name {
@@ -211,6 +229,10 @@
 }
 
 @media (max-width: 768px) {
+  .modal_content{
+    flex-direction: column-reverse;
+    gap: 0;
+  }
   .projects_subtitle{
     margin-bottom: 24px;
   }

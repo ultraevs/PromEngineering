@@ -58,9 +58,13 @@
     gap: 62px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 546px) {
   .contacs_place {
     flex-direction: column;
+  }
+  .contacts_map{
+    display: flex;
+    justify-content: center;
   }
   .contacs_place {
     gap: 46px;

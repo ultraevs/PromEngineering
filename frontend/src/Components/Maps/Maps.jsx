@@ -39,7 +39,7 @@ const Maps = () => {
   }
   
   return (
-    <div className="contacts_map">
+    <div >
       <YMaps>
         <Map
           style={{borderRadius: 12, overflow: "hidden", width: map_width, height: map_height}}

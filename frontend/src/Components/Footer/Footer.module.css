@@ -63,7 +63,7 @@
 
 @media (max-width: 768px) {
   .footer__block {
-    max-width: 480px;
+    max-width: 90%;
     margin: 0 auto;
   }
   
@@ -73,8 +73,5 @@
 }
 
 @media (max-width: 480px) {
-  .footer__block {
-    max-width: 90%;
-    margin: 0 auto;
-  }
+  
 }
