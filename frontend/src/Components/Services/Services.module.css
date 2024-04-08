@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .services__item img {
@@ -29,7 +29,7 @@
 }
 
 .services__item__text {
-  width: 50%;
+  width: 45%;
 }
 
 .services__item__text h4 {
@@ -148,9 +148,11 @@
 
   .services__item__text h4  {
     margin-bottom: 8px;
+    font-size: 22px;
   }
 
   .services__rails {
     margin: 6px 0px;
+    height: 100px;
   }
 }

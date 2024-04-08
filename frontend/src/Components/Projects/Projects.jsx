@@ -19,7 +19,7 @@ const Projects = () => {
     <section id="projects" className={styles.projects__block}>
       <div className="container">
         <h2 className={classNames("title", styles.title)}>Наши проекты</h2>
-        <p className={styles.projects_subtitle}>С географией по всей стране</p>
+        <p className={styles.projects_subtitle}>с географией по всей стране</p>
         <div className={styles.projects_blocks}>
           <div className={classNames(styles.projects_block, styles.metrovagon)}>
             <img className={styles.projects_img} src={img1} alt="Метровагонмаш" />
@@ -39,7 +39,7 @@ const Projects = () => {
             <img className={styles.projects_img} src={img2} alt="Метровагонмаш" />
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
-                Коломенский <br /> вагноностроительный <br /> завод
+                Коломенский <br /> машиностроительный <br /> завод
               </h4>
               <button
                 id="1"
