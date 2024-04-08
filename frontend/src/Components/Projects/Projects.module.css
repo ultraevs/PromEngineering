@@ -130,10 +130,8 @@
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%;
-
+  line-height: 1.55rem;
   text-indent: 1.5rem;
-  text-align: justify;
 }
 
 .modal_text_ul {
