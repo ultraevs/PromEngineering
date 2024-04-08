@@ -82,7 +82,7 @@
   }
 
   .header__navbar ul li {
-    font-size: 25px;
+    font-size: 16px;
     color: var(--text-dark);
     border-bottom: 1px solid var(--text-dark);
   }
