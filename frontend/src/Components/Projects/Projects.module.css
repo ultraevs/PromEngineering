@@ -130,8 +130,9 @@
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.55rem;
+  line-height: 120%;
   text-indent: 1.5rem;
+  text-align: justify;
 }
 
 .modal_text_ul {
@@ -265,6 +266,10 @@
     gap: 0.75rem;
   }
 
+  .projects_block_name {
+    font-size: 22px;
+    font-weight: 400;
+  }
   .modal_img{
     width: 247px;
     height: 141px;

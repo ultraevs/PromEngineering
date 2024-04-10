@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0px 1000px 1000px 0px;
+  border-radius: 30px;
 }
 
 .scroller {
