@@ -1,6 +1,6 @@
 .footer {
   background: #6d6e71;
-  height: 80px;
+  height: 150px;
 }
 
 .footer__block {
@@ -19,6 +19,7 @@
   font-size: 20px;
   line-height: 120%;
   color: #fff;
+  margin: 0;
 }
 
 @media (max-width: 1440px) {
