@@ -28,7 +28,7 @@
 .header__button__bar3 {
   width: 25px;
   height: 3px;
-  background: #fff;
+  background: black;
   margin: 4.5px 0;
   transition: all 0.4s;
 }
