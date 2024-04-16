@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import Logo from "../../assets/images/TMX_LOGO.svg";
+import Logo from "../../assets/images/TMX_LOGO_white.svg";
 import { animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {

@@ -1,10 +1,12 @@
 .header {
   z-index: 999;
-  background: #0a539d;
+  background: #fff;
   height: 100px;
   position: sticky;
   top: 0;
   line-height: 100px;
+
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.12)
 }
 
 .header__block {
