@@ -1,4 +1,5 @@
 .header__navbar ul {
+  margin-bottom: 0px;
   list-style: none;
   display: flex;
   flex-direction: row;
