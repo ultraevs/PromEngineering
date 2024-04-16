@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import Modal from "../Modal/Modal.jsx";
 
 
-import img1 from "../../assets/images/Метровагонмаш.png";
+import img1 from "../../assets/images/mvm.png";
 import img2 from "../../assets/images/Коломенский.jpg";
 import img3 from "../../assets/images/Тверской.jpg";
 import Close from "../../assets/icons/close.svg";
 
 import styles from "./Projects.module.css";
 import classNames from "classnames";
+import CarouselBox from "../СarouselBox/CarouselBox.jsx";
 
 const Projects = () => {
   const [modalActive1, setModalActive1] = useState(false);
@@ -22,7 +23,10 @@ const Projects = () => {
         <p className={styles.projects_subtitle}>с географией по всей стране</p>
         <div className={styles.projects_blocks}>
           <div className={classNames(styles.projects_block, styles.metrovagon)}>
-            <img className={styles.projects_img} src={img1} alt="Метровагонмаш" />
+            <div className={styles.projects_img}>
+              <CarouselBox/>
+            </div>
+            
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>Метровагонмаш</h4>
               <button

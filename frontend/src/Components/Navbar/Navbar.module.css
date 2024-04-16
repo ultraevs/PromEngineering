@@ -1,4 +1,5 @@
 .header__navbar ul {
+  margin-bottom: 0px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -6,17 +7,29 @@
 }
 
 .header__navbar ul li {
+  position: relative;
   cursor: pointer;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  color: var(--text-light);
+  color: #4c4c4c;
   transition: text-decoration 0.3s ease-in-out;
 }
 
-.header__navbar ul li:hover {
-  text-decoration: underline;
+.header__navbar ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #63cdf7;
+  transition: width 0.5s ease-in-out;
+}
+
+.header__navbar ul li:hover::before {
+  width: 100%;
 }
 
 @media (max-width: 1440px) {
@@ -63,15 +76,15 @@
   }
 
   .header__navbar {
-    background: #f6f6ff;
-    height: 404px;
+    background: #fff;
+    height: 360px;
   }
 
   .blur {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    top: 404px;
+    top: 361px;
     backdrop-filter: blur(2px);
   }
 

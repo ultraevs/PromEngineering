@@ -1,10 +1,12 @@
 .header {
   z-index: 999;
-  background: #0a539d;
+  background: #fff;
   height: 100px;
   position: sticky;
   top: 0;
   line-height: 100px;
+
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.12)
 }
 
 .header__block {
@@ -26,7 +28,7 @@
 .header__button__bar3 {
   width: 25px;
   height: 3px;
-  background: #fff;
+  background: black;
   margin: 4.5px 0;
   transition: all 0.4s;
 }
