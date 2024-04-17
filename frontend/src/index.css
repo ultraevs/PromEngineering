@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: #4c4c4c;
-}
-
 :root {
   --font-family: "Inter", sans-serif;
   --second-family: "Inter Tight", sans-serif;
@@ -23,6 +18,15 @@ a {
 
 body {
   background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+ul {
+  padding: 0;
 }
 
 .container {

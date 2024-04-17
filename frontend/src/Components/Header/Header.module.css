@@ -5,8 +5,7 @@
   position: sticky;
   top: 0;
   line-height: 100px;
-
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.12)
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
 }
 
 .header__block {
@@ -53,14 +52,14 @@
 }
 
 @media (max-width: 1280px) {
-  .header{
+  .header {
     height: 80px;
   }
 
   .header__block {
     max-width: 1000px;
     margin: 0 auto;
-  } 
+  }
 }
 
 @media (max-width: 1000px) {
@@ -71,6 +70,9 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    border-bottom: 1px solid white;
+  }
   .header__block {
     max-width: 90%;
     margin: 0 auto;
@@ -81,11 +83,10 @@
     cursor: pointer;
   }
 
-  .header{
+  .header {
     height: 72px;
   }
 }
 
 @media (max-width: 480px) {
-
 }
