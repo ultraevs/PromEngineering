@@ -36,7 +36,7 @@ const CarouselBox = () => {
 
             <Carousel.Item>
                 <img
-                    src={mvm_2}
+                    src={mvm_4}
                     alt="Метровагонмаш"
 
                 />
@@ -46,7 +46,7 @@ const CarouselBox = () => {
 
             <Carousel.Item>
                 <img
-                    src={mvm_9}
+                    src={mvm_10}
                     alt="Метровагонмаш"
 
                 />
