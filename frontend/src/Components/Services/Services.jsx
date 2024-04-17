@@ -23,7 +23,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className={styles.services__rails}></div>
       <div className="container">
         <div className={classNames(styles.services__item, styles.services__item__reverse)}>
           <div className={classNames(styles.services__item__text, styles.services__item__text__response)}>

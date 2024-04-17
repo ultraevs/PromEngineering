@@ -1,5 +1,8 @@
 .services__block {
+  display: flex;
+  flex-direction: column;
   padding-top: 144px;
+  gap: 32px;
 }
 
 .title {
