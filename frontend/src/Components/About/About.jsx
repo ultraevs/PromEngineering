@@ -14,7 +14,7 @@ const About = () => {
             <img src={RubIcon} alt="ruble" />
             <div className={styles.about__item__text}>
               <p>более</p>
-              <h5>25 млрд ₽ бюджет в управлении</h5>
+              <h5>25 млрд бюджет в управлении</h5>
             </div>
           </div>
           <div className={styles.about__item}>

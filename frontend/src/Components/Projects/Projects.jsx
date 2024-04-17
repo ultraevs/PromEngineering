@@ -29,6 +29,7 @@ const Projects = () => {
             
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>Метровагонмаш</h4>
+              <p className={styles.projects_block_leader}>Руководитель проекта: Иван Иванов</p>
               <button
                 id="1"
                 className={styles.projects_block_button}
@@ -45,6 +46,8 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 Коломенский <br /> машиностроительный <br /> завод
               </h4>
+              <p className={styles.projects_block_leader}>Руководитель проекта: Иван Иванов</p>
+
               <button
                 id="1"
                 className={styles.projects_block_button}
@@ -61,6 +64,8 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 Тверской <br /> вагоностроительный <br /> завод
               </h4>
+              <p className={styles.projects_block_leader}>Руководитель проекта: Иван Иванов</p>
+
               <button
                 id="1"
                 className={styles.projects_block_button}

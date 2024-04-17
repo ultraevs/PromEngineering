@@ -26,41 +26,11 @@ const CarouselBox = () => {
         <Carousel>
             <Carousel.Item>
                 <img
-                    src={mvm}
+                    src={mvm_1}
                     alt="Метровагонмаш"
                 />
                 <Carousel.Caption>
                     <h2>Метровагонмаш</h2>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_1}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_2}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_3}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -76,97 +46,7 @@ const CarouselBox = () => {
 
             <Carousel.Item>
                 <img
-                    src={mvm_5}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_6}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_7}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_8}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_9}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
                     src={mvm_10}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_11}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_12}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_13}
-                    alt="Метровагонмаш"
-
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                    src={mvm_14}
                     alt="Метровагонмаш"
 
                 />

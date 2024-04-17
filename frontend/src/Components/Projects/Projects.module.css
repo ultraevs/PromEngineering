@@ -73,8 +73,20 @@
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
+  margin: 0;
 
   text-align: center;
+}
+
+.projects_block_leader{
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+
+  margin-bottom: 20px;
+
 }
 
 .projects_block_button {

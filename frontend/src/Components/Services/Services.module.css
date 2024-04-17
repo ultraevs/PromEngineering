@@ -1,18 +1,18 @@
 .services__block {
+  display: flex;
+  flex-direction: column;
   padding-top: 144px;
+  gap: 32px;
 }
 
 .title {
   margin-bottom: 64px !important;
 }
 
-.services__rails {
-  margin: 42px 0;
-  height: 152px;
-  background: url("../../assets/images/rails.svg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+.services__items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .services__item {
@@ -146,13 +146,8 @@
     margin-bottom: 24px !important;
   }
 
-  .services__item__text h4  {
+  .services__item__text h4 {
     margin-bottom: 8px;
     font-size: 22px;
-  }
-
-  .services__rails {
-    margin: 6px 0px;
-    height: 100px;
   }
 }
