@@ -33,20 +33,27 @@ const Navbar = ({ state, setState, width }) => {
       >
         <ul>
           <li>
-            <Link onClick={scrollToTop} to="#">Главная</Link>
+            <Link spy={true} smooth={true} onClick={scrollToTop} to="#">
+              Главная
+            </Link>
           </li>
           <li>
-            <Link onClick={handleClick} to="services" spy smooth>
+            <Link onClick={handleClick} to="aboutCompany">
+              О компании
+            </Link>
+          </li>
+          <li>
+            <Link onClick={handleClick} to="services">
               Услуги
             </Link>
           </li>
           <li>
-            <Link onClick={handleClick} to="projects" spy smooth>
+            <Link onClick={handleClick} to="projects">
               Наши проекты
             </Link>
           </li>
           <li>
-            <Link onClick={handleClick} to="customers" spy smooth>
+            <Link onClick={handleClick} to="customers">
               Наши заказчики
             </Link>
           </li>
