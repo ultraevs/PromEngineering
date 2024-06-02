@@ -6,18 +6,18 @@ import Services from "../../Components/Services/Services";
 import Projects from "../../Components/Projects/Projects";
 import Customers from "../../Components/Customers/Customers";
 import Contacts from "../../Components/Contacts/Contacts";
-
-
+import AboutCompany from "../../Components/AboutCompany/AboutCompany";
 
 const MainPage = () => {
   return (
     <Layout>
-        <Hero />
-        <About />
-        <Services />
-        <Projects />
-        <Customers />
-        <Contacts />
+      <Hero />
+      <About />
+      <AboutCompany />
+      <Services />
+      <Projects />
+      <Customers />
+      <Contacts />
     </Layout>
   );
 };
