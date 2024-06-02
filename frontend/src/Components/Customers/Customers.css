@@ -76,6 +76,26 @@
   }
 }
 
+.tmh{
+  width: 200px;
+  height: 137px;
+}
+
+.csm{
+  width: 137px;
+  height: 137px;
+}
+
+.dmz{
+  width: 250px;
+  height: 137px;
+}
+
+.nevz{
+  width: 137px;
+  height: 137px;
+}
+
 @media (max-width: 1440px) {
   .customers_block {
     padding-top: 120px;
@@ -98,14 +118,24 @@
     height: 261px;
   }
 
-  .mpt {
-    width: 218px;
-    height: 36px;
+  .tmh{
+    width: 200px;
+    height: 128px;
   }
-
-  .rrl {
-    width: 154px;
-    height: 69px;
+  
+  .csm{
+    width: 128px;
+    height: 128px;
+  }
+  
+  .dmz{
+    width: 250px;
+    height: 128px;
+  }
+  
+  .nevz{
+    width: 128px;
+    height: 128px;
   }
 
   .cppk {
@@ -139,16 +169,6 @@
   .scroller__inner {
     gap: 4rem;
     height: 221px;
-  }
-
-  .mpt {
-    width: 218px;
-    height: 36px;
-  }
-
-  .rrl {
-    width: 154px;
-    height: 69px;
   }
 
   .cppk {
@@ -188,14 +208,24 @@
     height: 183px;
   }
 
-  .mpt {
-    width: 187px;
-    height: 30px;
+  .tmh{
+    width: 160px;
+    height: 96px;
   }
-
-  .rrl {
-    width: 129px;
-    height: 58px;
+  
+  .csm{
+    width: 96px;
+    height: 96px;
+  }
+  
+  .dmz{
+    width: 210px;
+    height: 96px;
+  }
+  
+  .nevz{
+    width: 96px;
+    height: 96px;
   }
 
   .cppk {
@@ -232,14 +262,24 @@
     height: 142px;
   }
 
-  .mpt {
-    width: 160px;
-    height: 25px;
+  .tmh{
+    width: 130px;
+    height: 70px;
   }
-
-  .rrl {
-    width: 97px;
-    height: 43px;
+  
+  .csm{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .dmz{
+    width: 170px;
+    height: 70px;
+  }
+  
+  .nevz{
+    width: 70px;
+    height: 70px;
   }
 
   .cppk {

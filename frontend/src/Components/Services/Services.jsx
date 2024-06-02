@@ -4,8 +4,8 @@ import classNames from "classnames";
 
 import customer from "../../assets/images/customer.png";
 import tools from "../../assets/images/tools.png";
-import development from "../../assets/images/development.png";
-import reconstruction from "../../assets/images/reconstruction.png";
+import projection from "../../assets/images/projection.jpg";
+import smr from "../../assets/images/smr.jpg";
 
 const Services = () => {
   return (
@@ -15,17 +15,9 @@ const Services = () => {
 
         <div className={styles.services__items}>
           <div className={styles.services__item}>
-            <img src={reconstruction} alt="first service" />
+            <img src={smr} alt="first service" />
             <div className={styles.services__item__text}>
-              <h4>Реконструкция</h4>
-              <ul>
-                <li>Предварительная оценка и консультации</li>
-                <li>Разработка проекта реконструкции</li>
-                <li>Получение необходимых разрешений и согласований</li>
-                <li>Строительные работы</li>
-                <li>Контроль качества и сроков</li>
-                <li>Сдача объекта и гарантийное обслуживание</li>
-              </ul>
+              <h4>Строительно монтажные работы</h4>
             </div>
           </div>
 
@@ -41,32 +33,15 @@ const Services = () => {
                 styles.services__item__text__response
               )}
             >
-              <h4>Девелопмент</h4>
-              <ul>
-                <li>Исследование рынка и анализ потенциала</li>
-                <li>Разработка концепции проекта</li>
-                <li>Проектирование и планирование</li>
-                <li>Финансирование и инвестирование</li>
-                <li>Строительство и управление проектом</li>
-                <li>Маркетинг и продажи</li>
-                <li>Послепродажное обслуживание</li>
-              </ul>
+              <h4>Проектирование</h4>
             </div>
-            <img src={development} alt="first service" />
+            <img src={projection} alt="first service" />
           </div>
 
           <div className={styles.services__item}>
             <img src={customer} alt="first service" />
             <div className={styles.services__item__text}>
               <h4>Услуги технического заказчика</h4>
-              <ul>
-                <li>Подготовка технических заданий</li>
-                <li>Подбор подрядчиков и поставщиков</li>
-                <li>Контроль качества и сроков выполнения работ</li>
-                <li>Управление бюджетом проекта</li>
-                <li>Решение технических вопросов</li>
-                <li>Документационное обеспечение проекта</li>
-              </ul>
             </div>
           </div>
 
@@ -82,16 +57,7 @@ const Services = () => {
                 styles.services__item__text__response
               )}
             >
-              <h4>Закупка оборудования</h4>
-              <ul>
-                <li>Консультации и подбор оборудования</li>
-                <li>
-                  Подготовка технических спецификаций и запрос предложений
-                </li>
-                <li>Анализ предложений и выбор поставщиков</li>
-                <li>Организация закупки и доставки</li>
-                <li>Поддержка и сервисное обслуживание</li>
-              </ul>
+              <h4>Поставка промышленного оборудования</h4>
             </div>
             <img src={tools} alt="first service" />
           </div>
