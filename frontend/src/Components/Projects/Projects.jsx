@@ -29,7 +29,9 @@ const Projects = () => {
             
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>Метровагонмаш</h4>
-              <p className={styles.projects_block_leader}>Руководитель проекта: Иван Иванов</p>
+              <p className={styles.projects_block_leader}>Руководитель проекта: Колдашов Сергей</p>
+              <a href="tel:+79663076062">+7 (966) 307-60-62</a>
+              <a href="mailto:s.koldashov@tmh.pro">s.koldashov@tmh.pro</a>
               <button
                 id="1"
                 className={styles.projects_block_button}
@@ -46,8 +48,9 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 Коломенский <br /> машиностроительный <br /> завод
               </h4>
-              <p className={styles.projects_block_leader}>Руководитель проекта: Иван Иванов</p>
-
+              <p className={styles.projects_block_leader}>Руководитель проекта: Глазков Сергей</p>
+              <a href="+79663076062">+7 (966) 307-60-62</a>
+              <a href="mailto:s.glazkov@tmh.pro">s.glazkov@tmh.pro</a>
               <button
                 id="1"
                 className={styles.projects_block_button}
@@ -64,8 +67,9 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 Тверской <br /> вагоностроительный <br /> завод
               </h4>
-              <p className={styles.projects_block_leader}>Руководитель проекта: Иван Иванов</p>
-
+              <p className={styles.projects_block_leader}>Руководитель проекта: Жуков Алексей</p>
+              <a href="+79065559696">+7 (906) 555-96-96</a>
+              <a href="mailto:a.zhukov@tmh.pro">a.zhukov@tmh.pro</a>
               <button
                 id="1"
                 className={styles.projects_block_button}
