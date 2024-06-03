@@ -37,44 +37,41 @@
 }
 
 .projects_block {
+  width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  gap: 20px;
+}
+
+.projects_img {
+  border-radius: 8px;
+  width: 805px;
+  height: 460px;
 }
 
 .metrovagon {
-  gap: 5.875rem;
-}
-
-.kolom {
-  gap: 2.25rem;
+  gap: 30px;
 }
 
 .tverskoi {
-  gap: 3rem;
-}
-
-@media (max-width: 1440px) {
-  .metrovagon {
-    gap: 3.5rem;
-  }
+  gap: 60px;
 }
 
 @media (max-width: 1280px) {
   .metrovagon {
-    gap: 3rem;
+    gap: 20px;
   }
-}
 
-@media (max-width: 1000px) {
-  .metrovagon {
-    gap: 1.7rem;
+  .tverskoi {
+    gap: 20px;
   }
 }
 
 .projects_img {
   border-radius: 8px;
-  width: 50.29169rem;
-  height: 28.82919rem;
+  width: 805px;
+  height: 460px;
 }
 
 .projects_block_info {
@@ -242,8 +239,12 @@
     height: 350px;
   }
 
+  .projects_block_info {
+    width: 345px;
+  }
+
   .projects_block_name {
-    font-size: 1.9375rem;
+    font-size: 1.8rem;
   }
 }
 

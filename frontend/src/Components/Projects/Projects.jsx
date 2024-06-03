@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../Modal/Modal.jsx";
 
-
 import img1 from "../../assets/images/mvm.png";
 import img2 from "../../assets/images/Коломенский.jpg";
 import img3 from "../../assets/images/Тверской.jpg";
@@ -24,13 +23,15 @@ const Projects = () => {
         <div className={styles.projects_blocks}>
           <div className={classNames(styles.projects_block, styles.metrovagon)}>
             <div className={styles.projects_img}>
-              <CarouselBox/>
+              <CarouselBox />
             </div>
-            
+
             <div className={styles.projects_block_info}>
-              <h4 className={styles.projects_block_name}>Метровагонмаш</h4>
-              <p className={styles.projects_block_leader}>Руководитель проекта: Колдашов Сергей</p>
-              <a href="tel:+79663076062">+7 (966) 307-60-62</a>
+              <h4 className={styles.projects_block_name}>АО "МЕТРОВАГОНМАШ"</h4>
+              <p className={styles.projects_block_leader}>
+                Руководитель проекта: Колдашов Сергей
+              </p>
+              <a href="tel:+79154200001">+7 (915) 420-00-01</a>
               <a href="mailto:s.koldashov@tmh.pro">s.koldashov@tmh.pro</a>
               <button
                 id="1"
@@ -43,13 +44,19 @@ const Projects = () => {
           </div>
 
           <div className={classNames(styles.projects_block, styles.kolom)}>
-            <img className={styles.projects_img} src={img2} alt="Метровагонмаш" />
+            <img
+              className={styles.projects_img}
+              src={img2}
+              alt="Метровагонмаш"
+            />
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
-                Коломенский <br /> машиностроительный <br /> завод
+                АО «Коломенский завод»
               </h4>
-              <p className={styles.projects_block_leader}>Руководитель проекта: Глазков Сергей</p>
-              <a href="+79663076062">+7 (966) 307-60-62</a>
+              <p className={styles.projects_block_leader}>
+                Руководитель проекта: Глазков Сергей
+              </p>
+              <a href="tel:+79663076062">+7 (966) 307-60-62</a>
               <a href="mailto:s.glazkov@tmh.pro">s.glazkov@tmh.pro</a>
               <button
                 id="1"
@@ -62,13 +69,19 @@ const Projects = () => {
           </div>
 
           <div className={classNames(styles.projects_block, styles.tverskoi)}>
-            <img className={styles.projects_img} src={img3} alt="Метровагонмаш" />
+            <img
+              className={styles.projects_img}
+              src={img3}
+              alt="Метровагонмаш"
+            />
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
                 Тверской <br /> вагоностроительный <br /> завод
               </h4>
-              <p className={styles.projects_block_leader}>Руководитель проекта: Жуков Алексей</p>
-              <a href="+79065559696">+7 (906) 555-96-96</a>
+              <p className={styles.projects_block_leader}>
+                Руководитель проекта: Жуков Алексей
+              </p>
+              <a href="tel:+79065559696">+7 (906) 555-96-96</a>
               <a href="mailto:a.zhukov@tmh.pro">a.zhukov@tmh.pro</a>
               <button
                 id="1"
@@ -89,8 +102,16 @@ const Projects = () => {
             <img src={Close} alt="" />
           </button>
           <div className={styles.modal_content}>
-            <img className={styles.modal_img} src={img1} alt="" width='532px' height='305px' />
-            <div className={classNames(styles.modal_info, styles.modal_metrovagon)}>
+            <img
+              className={styles.modal_img}
+              src={img1}
+              alt=""
+              width="532px"
+              height="305px"
+            />
+            <div
+              className={classNames(styles.modal_info, styles.modal_metrovagon)}
+            >
               <p className={styles.modal_text}>
                 <b>Метровагонмаш</b> – одно из ведущих предприятий России в
                 области транспортного машиностроения. Крупнейший в стране
@@ -104,11 +125,15 @@ const Projects = () => {
                 <b>Продукция и услуги</b>
               </p>
               &nbsp;
-              <ul className={classNames(styles.modal_text_ul, styles.modal_list)}>
-                <li>Изготовление современных вагонов метро для метрополитенов</li>
+              <ul
+                className={classNames(styles.modal_text_ul, styles.modal_list)}
+              >
                 <li>
-                  Изготовление рельсовых автобусов для городского, пригородного и
-                  межрегионального сообщения
+                  Изготовление современных вагонов метро для метрополитенов
+                </li>
+                <li>
+                  Изготовление рельсовых автобусов для городского, пригородного
+                  и межрегионального сообщения
                 </li>
                 <li>
                   Проведение капитального ремонта и модернизации вагонов метро
@@ -118,7 +143,6 @@ const Projects = () => {
               &nbsp;
             </div>
           </div>
-
         </Modal>
 
         <Modal active={modalActive2} setActive={setModalActive2}>
@@ -129,8 +153,13 @@ const Projects = () => {
             <img src={Close} alt="" />
           </button>
           <div className={styles.modal_content}>
-
-            <img className={styles.modal_img} src={img2} alt="" width='532px' height='305px' />
+            <img
+              className={styles.modal_img}
+              src={img2}
+              alt=""
+              width="532px"
+              height="305px"
+            />
 
             <div className={classNames(styles.modal_info, styles.modal_kolom)}>
               <p className={styles.modal_text}>
@@ -138,7 +167,8 @@ const Projects = () => {
                 производителем и лидером в области производства современных
                 магистральных пассажирских тепловозов, разработчиком и
                 изготовителем нового поколения пассажирских электровозов и
-                грузовых тепловозов для железных дорог России, стран СНГ и Балтики
+                грузовых тепловозов для железных дорог России, стран СНГ и
+                Балтики
               </p>
               &nbsp;
             </div>
@@ -153,10 +183,17 @@ const Projects = () => {
             <img src={Close} alt="" />
           </button>
           <div className={styles.modal_content}>
+            <img
+              className={styles.modal_img}
+              src={img3}
+              alt=""
+              width="532px"
+              height="305px"
+            />
 
-            <img className={styles.modal_img} src={img3} alt="" width='532px' height='305px' />
-
-            <div className={classNames(styles.modal_info, styles.modal_tverskoi)}>
+            <div
+              className={classNames(styles.modal_info, styles.modal_tverskoi)}
+            >
               <p className={styles.modal_text}>
                 <b>ОАО «Тверской вагоностроительный завод»</b> – современное
                 высокотехнологичное производство, единственное в России
@@ -164,10 +201,10 @@ const Projects = () => {
                 локомотивной тяги для скоростей движения до 200 км/ч. Завод
                 специализируется на выпуске одно- и двухэтажных пассажирских
                 вагонов, вагонов для международного сообщения, различных типов
-                грузовых вагонов и вагонов спецназначения, тележек для подвижного
-                состава магистральных железных дорог, а также электропоездов
-                нового поколения, участвует в производстве вагонов метро и
-                низкопольных трамваев
+                грузовых вагонов и вагонов спецназначения, тележек для
+                подвижного состава магистральных железных дорог, а также
+                электропоездов нового поколения, участвует в производстве
+                вагонов метро и низкопольных трамваев
               </p>
               &nbsp;
             </div>

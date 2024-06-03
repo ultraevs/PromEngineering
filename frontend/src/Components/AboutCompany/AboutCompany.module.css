@@ -12,6 +12,7 @@
 
 .aboutCompany__item__content__text {
   width: 50%;
+  text-align: justify;
 }
 
 .aboutCompany__item__content__text p {
