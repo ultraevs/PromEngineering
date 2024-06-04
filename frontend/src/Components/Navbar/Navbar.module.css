@@ -77,14 +77,15 @@
 
   .header__navbar {
     background: #fff;
-    height: 360px;
+    height: 451px;
   }
 
   .blur {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    top: 361px;
+    top: 451px;
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
   }
 
@@ -98,6 +99,10 @@
     font-size: 16px;
     color: var(--text-dark);
     border-bottom: 1px solid var(--text-dark);
+  }
+
+  .header__navbar ul li:first-child {
+    border-top: 1px solid var(--text-dark);
   }
 
   .header__navbar ul li::before {

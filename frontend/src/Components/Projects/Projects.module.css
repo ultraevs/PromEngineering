@@ -37,26 +37,41 @@
 }
 
 .projects_block {
+  width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
-}
-
-.metrovagon {
-  gap: 5.875rem;
-}
-
-.kolom {
-  gap: 2.25rem;
-}
-
-.tverskoi {
-  gap: 3rem;
+  gap: 20px;
 }
 
 .projects_img {
   border-radius: 8px;
-  width: 50.29169rem;
-  height: 28.82919rem;
+  width: 805px;
+  height: 460px;
+}
+
+.metrovagon {
+  gap: 30px;
+}
+
+.tverskoi {
+  gap: 60px;
+}
+
+@media (max-width: 1280px) {
+  .metrovagon {
+    gap: 20px;
+  }
+
+  .tverskoi {
+    gap: 20px;
+  }
+}
+
+.projects_img {
+  border-radius: 8px;
+  width: 805px;
+  height: 460px;
 }
 
 .projects_block_info {
@@ -84,12 +99,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-
-  margin-bottom: 20px;
-
+  text-align: center;
 }
 
 .projects_block_button {
+  margin-top: 20px;
   cursor: pointer;
 
   display: flex;
@@ -108,6 +122,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
+}
+
+@media (max-width: 1000px) {
+  .projects_block_button {
+    margin-top: 10px;
+  }
 }
 
 /* Modal */
@@ -219,8 +239,12 @@
     height: 350px;
   }
 
+  .projects_block_info {
+    width: 345px;
+  }
+
   .projects_block_name {
-    font-size: 1.9375rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -236,6 +260,14 @@
 
   .projects_block_name {
     font-size: 28px;
+  }
+
+  .projects_block_button {
+    margin-top: 10px;
+  }
+
+  .projects_block_info {
+    gap: 0.4rem;
   }
 }
 

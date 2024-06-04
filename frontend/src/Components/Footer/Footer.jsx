@@ -15,7 +15,7 @@ const Footer = () => {
         <div onClick={scrollToTop} className="logo">
           <img src={Logo} alt="TMX logo" />
         </div>
-        <p>Проминжиниринг, 2024</p>
+        <p>ООО "Проминжиниринг", 2024</p>
       </div>
     </footer>
   );

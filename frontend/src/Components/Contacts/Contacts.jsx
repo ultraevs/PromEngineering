@@ -11,12 +11,23 @@ const Contacts = () => {
         <div className={styles.contacs_place}>
           <ul className={styles.contacs_info}>
             <li>
-              Юр. адрес: 107140, г. Москва, ул. Русаковская, д. 13, помещ. хх-4
+              Юр. адрес: 107140, г. Москва, ул. Русаковская дом 13, пом. 08-03
             </li>
             <li>
               Email:{" "}
               <a className={styles.contacs_link} href="mailto:info@tmh.pro">
                 info@tmh.pro
+              </a>
+            </li>
+            <li>
+              Контактное лицо - Зулунова Анна
+              <br />
+              <a className={styles.contacs_link} href="tel:+79153678243">
+              +7 (915) 367-82-43
+              </a>
+              <br />
+              <a className={styles.contacs_link} href="mailto:a.zulunova@tmh.pro">
+              a.zulunova@tmh.pro
               </a>
             </li>
           </ul>
