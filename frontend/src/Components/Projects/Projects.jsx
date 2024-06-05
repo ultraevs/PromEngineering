@@ -27,7 +27,7 @@ const Projects = () => {
             </div>
 
             <div className={styles.projects_block_info}>
-              <h4 className={styles.projects_block_name}>АО "МЕТРОВАГОНМАШ"</h4>
+              <h4 className={styles.projects_block_name}>АО «МЕТРОВАГОНМАШ»</h4>
               <p className={styles.projects_block_leader}>
                 Руководитель проекта: Колдашов Сергей
               </p>
@@ -76,7 +76,7 @@ const Projects = () => {
             />
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
-                Тверской <br /> вагоностроительный <br /> завод
+                ОАО «Тверской <br /> вагоностроительный <br /> завод»
               </h4>
               <p className={styles.projects_block_leader}>
                 Руководитель проекта: Жуков Алексей
