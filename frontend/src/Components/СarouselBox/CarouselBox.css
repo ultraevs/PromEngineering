@@ -85,3 +85,11 @@
         height: 196px;
     }
 }
+
+@media (max-width: 768px) {
+    .carousel h2{
+        font-size: 14px;
+        line-height: 16px
+    }
+    
+}
