@@ -48,8 +48,9 @@ import oervz1 from "../../assets/images/oervz1.jpg"
 import oervz2 from "../../assets/images/oervz2.png"
 import oervz3 from "../../assets/images/oervz3.jpg"
 
-import nofoto from "../../assets/images/nofoto.png"
-
+import svarmash1 from "../../assets/images/svarmash1.jpg"
+import svarmash2 from "../../assets/images/svarmash2.jpg"
+import svarmash3 from "../../assets/images/svarmash3.jpg"
 
 import styles from "./Projects.module.css";
 import classNames from "classnames";
@@ -269,9 +270,9 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className={classNames(styles.projects_block, styles.metrovagon)}>
+          <div className={classNames(styles.projects_block, styles.svarmash)}>
             <div className={styles.projects_img}>
-              <CarouselBox ph1={nofoto} ph2={nofoto} ph3={nofoto} name={"ОАО «ЦЕНТРОСВАРМАШ»"} />
+              <CarouselBox ph1={svarmash1} ph2={svarmash2} ph3={svarmash3} name={"ОАО «ЦЕНТРОСВАРМАШ»"} />
             </div>
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
