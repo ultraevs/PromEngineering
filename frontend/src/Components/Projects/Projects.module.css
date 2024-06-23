@@ -41,42 +41,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: space-between; */
   gap: 60px;
 }
-
 
 .projects_img {
   border-radius: 8px;
   width: 805px;
   height: 460px;
-}
-/* 
-.metrovagon {
-  gap: 30px;
-}
-
-.tverskoi {
-  gap: 60px;
-}
-
-.nevz {
-  gap: 10px;
-} */
-
-
-@media (max-width: 1280px) {
-  .metrovagon {
-    gap: 20px;
-  }
-
-  .tverskoi {
-    gap: 20px;
-  }
-
-  .nevz {
-    gap: 30px;
-  }
 }
 
 .projects_img {
@@ -90,6 +61,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   gap: 0.75rem;
 }
 
@@ -135,73 +107,6 @@
   line-height: 120%;
 }
 
-@media (max-width: 1000px) {
-  .projects_block_button {
-    margin-top: 10px;
-  }
-}
-
-/* Modal */
-
-.modal_content{
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.modal_metrovagon{
-  max-width: 600px;
-}
-
-.modal_kolom{
-  max-width: 400px;
-}
-
-.modal_tverskoi{
-  max-width: 520px;
-}
-
-.modal_info{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal_text {
-  font-family: "Inter", sans-serif;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-  text-indent: 1.5rem;
-  text-align: justify;
-}
-
-.modal_text_ul {
-  font-family: "Inter", sans-serif;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-}
-
-.modal_list {
-  padding-left: 1.2rem;
-}
-
-.close {
-  border: none;
-  background: none;
-  width: 100%;
-
-  cursor: pointer;
-}
-
-.close img {
-  float: right;
-}
-
 @media (max-width: 1440px) {
   .projects__block {
     padding-top: 120px;
@@ -219,15 +124,6 @@
 
   .projects_block_name {
     font-size: 35px;
-  }
-
-  .modal_img{
-    width: 330px;
-    height: 189px;
-  }
-
-  .modal_text, .modal_text_ul{
-    font-size: 16px;
   }
 }
 
@@ -250,10 +146,6 @@
     height: 350px;
   }
 
-  .projects_block_info {
-    width: 345px;
-  }
-
   .projects_block_name {
     font-size: 1.8rem;
   }
@@ -273,20 +165,12 @@
     font-size: 28px;
   }
 
-  .projects_block_button {
-    margin-top: 10px;
-  }
-
   .projects_block_info {
     gap: 0.4rem;
   }
 }
 
 @media (max-width: 768px) {
-  .modal_content{
-    flex-direction: column-reverse;
-    gap: 0;
-  }
   .projects_subtitle{
     margin-bottom: 24px;
   }
@@ -310,9 +194,6 @@
     font-weight: 400;
   }
 
-  .projects_block_button {
-    font-size: 0.875rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -324,13 +205,5 @@
   .projects_block_name {
     font-size: 22px;
     font-weight: 400;
-  }
-  .modal_img{
-    width: 247px;
-    height: 141px;
-  }
-
-  .modal_text, .modal_text_ul{
-    font-size: 14px;
   }
 }
