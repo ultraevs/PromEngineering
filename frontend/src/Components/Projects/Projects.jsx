@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-import Modal from "../Modal/Modal.jsx";
-
-import img1 from "../../assets/images/mvm.png";
-import Close from "../../assets/icons/close.svg";
 
 import mvm1 from "../../assets/images/mvm_1.jpg"
 import mvm2 from "../../assets/images/mvm_4.jpg"
@@ -57,10 +53,6 @@ import classNames from "classnames";
 import CarouselBox from "../СarouselBox/CarouselBox.jsx";
 
 const Projects = () => {
-  const [modalActive1, setModalActive1] = useState(false);
-  const [modalActive2, setModalActive2] = useState(false);
-  const [modalActive3, setModalActive3] = useState(false);
-
   return (
     <section id="projects" className={styles.projects__block}>
       <div className="container">
@@ -71,21 +63,8 @@ const Projects = () => {
             <div className={styles.projects_img}>
               <CarouselBox ph1={mvm1} ph2={mvm2} ph3={mvm3} name={"АО «МЕТРОВАГОНМАШ»"} />
             </div>
-
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>АО «МЕТРОВАГОНМАШ»</h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Колдашов Сергей
-              </p>
-              <a href="tel:+79154200001">+7 (915) 420-00-01</a>
-              <a href="mailto:s.koldashov@tmh.pro">s.koldashov@tmh.pro</a>
-              {/* <button
-                id="1"
-                className={styles.projects_block_button}
-                onClick={() => setModalActive1(true)}
-              >
-                Подробнее
-              </button> */}
             </div>
           </div>
 
@@ -97,41 +76,17 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 АО «Коломенский завод»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Глазков Сергей
-              </p>
-              <a href="tel:+79663076062">+7 (966) 307-60-62</a>
-              <a href="mailto:s.glazkov@tmh.pro">s.glazkov@tmh.pro</a>
-              {/* <button
-                id="1"
-                className={styles.projects_block_button}
-                onClick={() => setModalActive2(true)}
-              >
-                Подробнее
-              </button> */}
             </div>
           </div>
 
           <div className={classNames(styles.projects_block, styles.tverskoi)}>
-          <div className={styles.projects_img}>
+            <div className={styles.projects_img}>
               <CarouselBox ph1={tvz1} ph2={tvz2} ph3={tvz3} name={"ОАО «Тверской вагоностроительный завод»"} />
             </div>
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
                 ОАО «Тверской <br /> вагоностроительный завод»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Жуков Алексей
-              </p>
-              <a href="tel:+79065559696">+7 (906) 555-96-96</a>
-              <a href="mailto:a.zhukov@tmh.pro">a.zhukov@tmh.pro</a>
-              {/* <button
-                id="1"
-                className={styles.projects_block_button}
-                onClick={() => setModalActive3(true)}
-              >
-                Подробнее
-              </button> */}
             </div>
           </div>
 
@@ -143,18 +98,6 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 ОАО «Новочеркасский <br /> электровозостроительный <br /> завод»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Морозов Максим
-              </p>
-              <a href="tel:+79889977500">+7 (988) 997-75-00</a>
-              <a href="mailto:m.morozov@tmh.pro">m.morozov@tmh.pro</a>
-              {/* <button
-                id="1"
-                className={styles.projects_block_button}
-                onClick={() => setModalActive3(true)}
-              >
-                Подробнее
-              </button> */}
             </div>
           </div>
 
@@ -166,11 +109,6 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 АО «Демиховский <br /> машиностроительный завод»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Морозов Андрей
-              </p>
-              <a href="tel:+79237804886">+7 (923) 780-48-86</a>
-              <a href="mailto:xxx@mail.ru">xxx@mail.ru</a>
             </div>
           </div>
 
@@ -180,13 +118,8 @@ const Projects = () => {
             </div>
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
-                АО «Брянский <br/> машиностроительный завод»
+                АО «Брянский <br /> машиностроительный завод»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Иванов Иван
-              </p>
-              <a href="tel:+7xxxxxxxxxx">+7 (xxx) xxx-xx-xx</a>
-              <a href="mailto:xxx@mail.ru">xxx@tmh.pro</a>
             </div>
           </div>
 
@@ -196,13 +129,8 @@ const Projects = () => {
             </div>
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
-                АО «Центральная пригородная <br/> пассажирская компания»
+                АО «Центральная пригородная <br /> пассажирская компания»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Рудюк Сергей
-              </p>
-              <a href="tel:+79169909947">+7 (916) 990-99-47</a>
-              <a href="mailto:xxx@mail.ru">xxx@tmh.pro</a>
             </div>
           </div>
 
@@ -214,11 +142,6 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 «ТМХ инжиниринг»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Колдашов Сергей
-              </p>
-              <a href="tel:+79154200001">+7 (915) 420-00-01</a>
-              <a href="mailto:s.koldashov@tmh.pro">s.koldashov@tmh.pro</a>
             </div>
           </div>
 
@@ -228,13 +151,8 @@ const Projects = () => {
             </div>
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
-                «ТМХ <br/> пассажирский транспорт»
+                «ТМХ <br /> пассажирский транспорт»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Белошапкин Евгений
-              </p>
-              <a href="tel:+79652714205">+7 (965) 271-42-05</a>
-              <a href="mailto:xxx@tmh.pro">xxx@tmh.pro</a>
             </div>
           </div>
 
@@ -246,11 +164,6 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 АО «Метровагонмаш-сервис»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Белошапкин Евгений
-              </p>
-              <a href="tel:+79652714205">+7 (965) 271-42-05</a>
-              <a href="mailto:xxx@tmh.pro">xxx@tmh.pro</a>
             </div>
           </div>
 
@@ -260,13 +173,8 @@ const Projects = () => {
             </div>
             <div className={styles.projects_block_info}>
               <h4 className={styles.projects_block_name}>
-                АО «Октябрьский <br/> электровагоноремонтный <br/> завод»
+                АО «Октябрьский <br /> электровагоноремонтный <br /> завод»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Жуков Алексей
-              </p>
-              <a href="tel:+79065559696">+7 (906) 555-96-96</a>
-              <a href="mailto:a.zhukov@tmh.pro">a.zhukov@tmh.pro</a>
             </div>
           </div>
 
@@ -278,132 +186,10 @@ const Projects = () => {
               <h4 className={styles.projects_block_name}>
                 ОАО «ЦЕНТРОСВАРМАШ»
               </h4>
-              <p className={styles.projects_block_leader}>
-                Руководитель проекта: Иванов Иван
-              </p>
-              <a href="tel:+7xxxxxxxxxx">+7 (xxx) xxx-xx-xx</a>
-              <a href="mailto:xxx@tmh.pro">xxx@tmh.pro</a>
             </div>
           </div>
 
         </div>
-
-        <Modal active={modalActive1} setActive={setModalActive1}>
-          <button
-            className={styles.close}
-            onClick={() => setModalActive1(false)}
-          >
-            <img src={Close} alt="" />
-          </button>
-          <div className={styles.modal_content}>
-            <img
-              className={styles.modal_img}
-              src={img1}
-              alt=""
-              width="532px"
-              height="305px"
-            />
-            <div
-              className={classNames(styles.modal_info, styles.modal_metrovagon)}
-            >
-              <p className={styles.modal_text}>
-                <b>Метровагонмаш</b> – одно из ведущих предприятий России в
-                области транспортного машиностроения. Крупнейший в стране
-                производитель вагонов метро. Предприятие специализируется на
-                изготовлении подвижного состава для метрополитенов и железных
-                дорог, запасных частей к выпускаемому подвижному составу,
-                капитальном ремонте, модернизации и сервисном обслуживании.
-              </p>
-              &nbsp;
-              <p className={styles.modal_text}>
-                <b>Продукция и услуги</b>
-              </p>
-              &nbsp;
-              <ul
-                className={classNames(styles.modal_text_ul, styles.modal_list)}
-              >
-                <li>
-                  Изготовление современных вагонов метро для метрополитенов
-                </li>
-                <li>
-                  Изготовление рельсовых автобусов для городского, пригородного
-                  и межрегионального сообщения
-                </li>
-                <li>
-                  Проведение капитального ремонта и модернизации вагонов метро
-                </li>
-                <li>Сервисное обслуживание вагонов метро</li>
-              </ul>
-              &nbsp;
-            </div>
-          </div>
-        </Modal>
-
-        <Modal active={modalActive2} setActive={setModalActive2}>
-          <button
-            className={styles.close}
-            onClick={() => setModalActive2(false)}
-          >
-            <img src={Close} alt="" />
-          </button>
-          <div className={styles.modal_content}>
-            <img
-              className={styles.modal_img}
-              src={kolom2}
-              alt=""
-              width="532px"
-              height="305px"
-            />
-
-            <div className={classNames(styles.modal_info, styles.modal_kolom)}>
-              <p className={styles.modal_text}>
-                <b>АО «Коломенский завод»</b> является единственным в России
-                производителем и лидером в области производства современных
-                магистральных пассажирских тепловозов, разработчиком и
-                изготовителем нового поколения пассажирских электровозов и
-                грузовых тепловозов для железных дорог России, стран СНГ и
-                Балтики
-              </p>
-              &nbsp;
-            </div>
-          </div>
-        </Modal>
-
-        <Modal active={modalActive3} setActive={setModalActive3}>
-          <button
-            className={styles.close}
-            onClick={() => setModalActive3(false)}
-          >
-            <img src={Close} alt="" />
-          </button>
-          <div className={styles.modal_content}>
-            <img
-              className={styles.modal_img}
-              src={tvz1}
-              alt=""
-              width="532px"
-              height="305px"
-            />
-
-            <div
-              className={classNames(styles.modal_info, styles.modal_tverskoi)}
-            >
-              <p className={styles.modal_text}>
-                <b>ОАО «Тверской вагоностроительный завод»</b> – современное
-                высокотехнологичное производство, единственное в России
-                предприятие по созданию различных типов пассажирских вагонов
-                локомотивной тяги для скоростей движения до 200 км/ч. Завод
-                специализируется на выпуске одно- и двухэтажных пассажирских
-                вагонов, вагонов для международного сообщения, различных типов
-                грузовых вагонов и вагонов спецназначения, тележек для
-                подвижного состава магистральных железных дорог, а также
-                электропоездов нового поколения, участвует в производстве
-                вагонов метро и низкопольных трамваев
-              </p>
-              &nbsp;
-            </div>
-          </div>
-        </Modal>
       </div>
     </section>
   );

@@ -1,6 +1,5 @@
 .heroBg {
-  background: url("../../assets/images/MainBG.svg");
-  height: calc(100vh - 230px);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("../../assets/images/MainBG.jpg") lightgray 50% / cover no-repeat;  height: calc(100vh - 230px);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
